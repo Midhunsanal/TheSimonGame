@@ -44,7 +44,7 @@ function nextSequence(){
     
 }
 
-$('body').click(function(){{
+$('body').keypress(function(){
     if (!started) {
         nextSequence();
         started = true;
@@ -92,7 +92,7 @@ function checkAnswer(currentLevel){
 
 }
 
-}
+
 function startOver(){
 
     level = 0;
