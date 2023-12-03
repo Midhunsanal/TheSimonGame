@@ -44,7 +44,7 @@ function nextSequence(){
     
 }
 
-$(document).keypress(function(){
+$(document).click(function(){
     if (!started) {
         nextSequence();
         started = true;
